@@ -1,0 +1,67 @@
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+    --background-color: #ffffff;
+    --text-color: #333333;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+p {
+    margin-bottom: 1em;
+}
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: var(--font-size-base);
+}
+button:hover {
+    background-color: var(--secondary-color);
+}
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: var(--font-size-base);
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
